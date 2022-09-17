@@ -55,3 +55,10 @@ p{
 #profiled{
   border-radius: 10px;
 }
+.navbar:hover{
+  background-color:gray;
+  border-radius:5px;
+  padding: 2px;
+
+
+}
