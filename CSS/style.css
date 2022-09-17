@@ -11,6 +11,13 @@ hr {
   font-family: Lucida sans;
 }
 
+.Welcome{
+display: inline-block;
+position: relative;
+left:200px;
+font-size: 25px;
+padding-bottom: 50px;
+}
 .dotted {
   border-style: none;
   border-top-color: gray;
@@ -61,4 +68,19 @@ p {
   background-color: gray;
   border-radius: 5px;
   padding: 2px;
+}
+
+.laptopSet{
+  height:250px;
+  position: relative;
+  top:-80px;
+  display:inline-block;
+}
+.laptop{
+  position: relative;
+  top: 100px;
+  left: 300px;
+  height:350px;
+  margin-top: 10px;
+  display:inline-block;
 }
