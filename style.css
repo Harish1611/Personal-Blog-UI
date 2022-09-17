@@ -7,6 +7,10 @@ hr {
   height: 3px;
 }
 
+*{
+  font-family: Lucida sans;
+
+}
 .dotted {
   border-style: none;
   border-top-color: gray;
