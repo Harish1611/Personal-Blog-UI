@@ -1,39 +1,23 @@
 body {
   background-color: #C9D6DF;
   margin: 0px;
+  font-family: Lucida sans;
 }
 
 hr {
   height: 3px;
-}
 
-* {
-  font-family: Lucida sans;
-}
-
-.Welcome{
-display: inline-block;
-position: relative;
-left:200px;
-font-size: 25px;
-padding-bottom: 80px;
-}
-.dotted {
-  border-style: none;
-  border-top-color: gray;
-  border-top-style: dotted;
-  border-width: 5px;
-  width: 5%;
 }
 
 h3 {
   color: #1E2022;
   font-size: 25px;
-  font-family: papyrus;
+  font-family: 'Pacifico', cursive;
 }
 
 h1 {
-  font-family: Lucida sans;
+  font-family: 'Pacifico', cursive;
+
 }
 
 p {
@@ -70,52 +54,85 @@ p {
   padding: 2px;
 }
 
-.laptopSet{
-  height:250px;
+.container-top {
   position: relative;
-  top:-80px;
-  display:inline-block;
-}
-.laptop{
-  position: relative;
-  top: 100px;
-  left: 300px;
-  height:350px;
-  margin-top: 10px;
-  display:inline-block;
+  height: 600px;
 }
 
-.cloud{
-  position: relative;
+.Welcome {
+  position: absolute;
+  top: 120px;
+  left: 490px;
+  font-size: 25px;
+  padding-bottom: 80px;
+  text-align:center;
+}
+.Welcome h1{
+  color: #440A67;
+}
+.laptopSet {
+  height: 250px;
+  position: absolute;
+  top: -40px;
+}
+
+.laptop {
+  position: absolute;
   top: 60px;
-  left: 150px;
-  height:100px;
-  display:inline-block;
-}
-.cloud1{
-  position: absolute;
-  top: 200px;
   left: 900px;
-  height:50px;
-  display:inline-block;
+  height: 350px;
+  margin-top: 10px;
 }
-.cloud2{
+
+.cloud {
   position: absolute;
-  top: 180px;
-  left: 1320px;
-  height:120px;
-  display:inline-block;
-}.cloud3{
-  position: absolute;
-  top: 480px;
-  left: 1050px;
-  height:80px;
-  display:inline-block;
+  top: 260px;
+  left: 150px;
+  height: 100px;
 }
-.cloud4{
+
+.cloud1 {
+  position: absolute;
+  top: 60px;
+  left: 300px;
+  height: 50px;
+}
+
+.cloud2 {
+  position: absolute;
+  top: 110px;
+  left: 700px;
+  height: 50px;
+}
+
+.cloud3 {
   position: absolute;
   top: 340px;
-  left: 410px;
-  height:50px;
-  display:inline-block;
+  left: 850px;
+  height: 80px;
+}
+
+.cloud4 {
+  position: absolute;
+  top: 40px;
+  left: 1200px;
+  height: 120px;
+}
+
+.dotted {
+  border-style: none;
+  border-top-color: gray;
+  border-top-style: dotted;
+  border-width: 5px;
+  width: 5%;
+  position: absolute;
+   top:440px;
+   left:48%;
+}
+
+.container-2{
+display: block;
+position: relative;
+}
+.footerdiv{
 }
