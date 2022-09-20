@@ -145,13 +145,17 @@ p {
   padding-bottom:4%;
 }
 
-.skill-img {
+.skill-imgR {
   width: 20%;
   float: right;
   margin-right: 30px;
 }
 
-
+.skill-imgL {
+  width: 20%;
+  margin-right: 30px;
+  float: left;
+}
 .Webdev {
   background-color: #C9D6DF;
   text-align: left;
@@ -179,35 +183,48 @@ p {
 #Courses{
   background-color: #EDEEF7;
   text-align: center;
+  padding:3% 15%;
 }
-.Courses {
-  padding-left: 20px;
-  text-align: left;
-  height: 400px;
-  margin: auto;
-  line-height: 2;
-  margin-top: 60px;
-  width: 80%;
+.Course {
+
+ background-color: #C9D6DF;
+ border-radius: 10px;
 }
-.course-img {
-  width: 20%;
-  margin-right: 30px;
-  float: left;
-}
+
 .Course1 {
   background-color: #EDEEF7;
-  padding-top: 20px;
-  margin-top: 60px;
+  margin-bottom:  20px;
+  margin-top: 20px;
 }
 
-.footerdiv {
-  padding-top: 20px;
+
+
+.carousel-item {
+  padding: 4% 15%;
+  color:Black;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+
+#footer{
   background-color: #1E2022;
+  padding:3% 2%;
+
+}
+.footerdiv {
   height: 100px;
+  background-color: #1E2022;
   text-align: center;
   color: white;
+  line-height: 2.5;
+  font-size: 23px;
 }
+.footerdiv p{
+  font-size: 12px;
+  background-color: #1E2022;
 
+}
 .anchor {
   color: #440A67;
   text-decoration: none;
