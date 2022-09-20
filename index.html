@@ -4,66 +4,89 @@
 <head>
   <meta charset="utf-8">
   <title>Harish Official</title>
-  <link rel="stylesheet" href="CSS/style.css">
-  <link rel="icon" href="favicon.ico">
+  <link rel="icon" href="favicon (1).ico">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js" integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="CSS/style1.css">
 
 <body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class=" navbar-brand" href="index.html"><img class=" nav-logo" src="images/logo.png" alt="">
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item">
+          <a href="#title" class="nav-link"> Home</a>
+        </li>
+        <li class="nav-item">
+          <a href="#Skill" class="nav-link"> Skills</a>
+        </li>
+        <li class="nav-item">
+          <a href="#profile" class="nav-link"> About</a>
+        </li>
+        <li class="nav-item">
+          <a href="Detail_Form.html" class="nav-link"> Contact </a>
+        </li>
+        <li class="nav-signUp nav-item">
+          <a href="#signUp" class="nav-link">
+          <button type="button" name="button" class="btn btn-outline-light btn-sm">Sign Up</button> </a>
+        </li>
 
-  <div style="background-color:#1E2022">
-    <table cellspacing="20">
-      <tr style="color:#F0F5F9">
-        <td><a href="index.html"><img height="60" src="images/logo.png" alt="">
-          </a></td>
-        <td style="color:#1E2022">___________________________________________________________________</td>
-        <td><a href="index.html" class="navbar" style="text-decoration: none;color:White;font-size:20px;
-    ">Home</a></td>
-        <td><a href="Skills.html" class="navbar" style="text-decoration: none;color:White;font-size:20px;">Skills</a></td>
-        <td><a href="About.html" class="navbar" style="text-decoration: none;color:White;font-size:20px;">About</a></td>
-        <td><a href="Detail_Form.html" class="navbar" style="text-decoration: none;color:White;font-size:20px;">Contact me</a></td>
-      </tr>
-    </table>
-  </div>
-  <div class="container-top">
-
-    <img class="cloud" src="images/cloud.png" alt="">
-
-    <img class="laptopSet" src="images/laptopSet.png" alt="">
-    <img class="cloud1" src="images/cloud.png" alt="">
-    <img class="cloud2" src="images/cloud.png" alt="">
-    <img class="cloud3" src="images/cloud.png" alt="">
-    <img class="cloud4" src="images/cloud.png" alt="">
-
-    <div class="Welcome">
-      <h1>Welcome</h1>
-      <h1>I'm Harish Naidu</h1>
-      <p><strong>a Web Designer</strong></p>
+      </ul>
     </div>
+  </nav>
 
-    <img class="laptop" src="images/laptop.png" alt="">
+  <section id="title">
+    
+   <div class="container-fluid">
+     <div class="title-div">
+
+        <img class="title-img" src="images/title-img.png" alt="">
+
+        <div class="Welcome">
+          <h1  class="wellcome-txt">Welcome</h1>
+          <h1>I'm Harish Naidu</h1>
+          <p><strong>a Web Designer</strong></p>
+        </div>
+
+      </div>
+
+      </div>
+
+  </section>
 
 
-  </div>
+  <section id="profile">
+    <div class="container-fluid">
 
-
-  <div class="container-2">
     <div class="Profile1">
-      <h1>My Profile</h1>
+      <h1 class="heading">My Profile</h1>
       <div class="profiles">
         <img class="profile-img" src="images/Profile.png" alt="">
         <p>I am Harish Naidu Bonam. I'm an Engineering graduate in Electronics and Communications.
           I can design and develop Websites from scratch. I'm fimiliar with HTML, CSS, JS, React, BootStrap, NodeJS, MySQL, Java.
           I can design a website for you as a freelance project, contact me if needed.</p>
-        <a class="btn" href="About.html">See more</a>
+        <a class="btn1 " href="About.html">See more</a>
       </div>
     </div>
-    <hr class="dotted">
+  </div>
 
-    <div class="Skill">
-      <h1>My Skills</h1>
+  </section>
+
+  <section id="Skill">
+    <div class="container-fluid">
+
+    <div class="Skills">
+      <h1 class="heading">My Skills</h1>
       <br>
+
       <div class="Webdev">
         <img class="skill-img" src="https://media.giphy.com/media/HvekzBaREHxlEwvlOS/giphy.gif" alt="">
         <h2>Web Development</h2>
@@ -71,7 +94,7 @@
           aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 
       </div>
-
+      <hr class="dotted">
       <div class="JavaDev">
         <img class="course-img" src="https://media.giphy.com/media/nPCNWmIOcZny6Vfksa/giphy.gif" alt="">
         <h2>Java Development</h2>
@@ -81,14 +104,19 @@
 
       </div>
       <br>
-      <a class="btn" href="Skills.html">See More</a>
+      <a class="btn1" href="Skills.html">See More</a>
 
 
     </div>
+  </div>
 
+  </section>
+
+  <section id="Courses">
+
+    <div class="container-fluid">
 
     <div class="Course1">
-      <hr class="dotted">
       <br>
       <h1>My Courses</h1>
 
@@ -96,18 +124,23 @@
         <img class="course-img" src="https://media.giphy.com/media/juua9i2c2fA0AIp2iq/giphy.gif" alt="">
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
           aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-        <a class="btn" href="Courses.html">Visit Courses</a>
+        <a class="btn1" href="Courses.html">Visit Courses</a>
       </div>
     </div>
 
-  </div>
+    </div>
+  </section>
 
-  <div class="footerdiv">
-    <a class="anchor" href="https://www.linkedin.com/in/harish-naidu-bonam/" target="_blank">Linkedin</a>
-    <a class="anchor" href="https://www.instagram.com/harish_bonam5/" target="_blank">Instagram</a>
-    <a class="anchor" href="https://github.com/Harish1611" target="_blank">GitHub</a>
-    <p>Copyright © 2022 Harish Naidu Bonam </p>
-  </div>
+  <section id="footer">
+
+    <div class="footerdiv">
+      <a class="anchor" href="https://www.linkedin.com/in/harish-naidu-bonam/" target="_blank">Linkedin</a>
+      <a class="anchor" href="https://www.instagram.com/harish_bonam5/" target="_blank">Instagram</a>
+      <a class="anchor" href="https://github.com/Harish1611" target="_blank">GitHub</a>
+      <p>Copyright © 2022 Harish Naidu Bonam </p>
+    </div>
+
+  </section>
 
 </body>
 
